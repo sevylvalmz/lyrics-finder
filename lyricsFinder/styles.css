@@ -1,0 +1,48 @@
+/* Genel Sayfa Stili */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9; /* Açık gri arka plan */
+  color: #333; /* Koyu gri yazı rengi */
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Başlık */
+h1 {
+  color: #5c6bc0; /* Mavi mor renk */
+}
+
+/* Input ve Buton Stili */
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%; /* Genişlik biraz daha dar */
+  border-radius: 5px; /* Köşe yuvarlama */
+  border: 1px solid #ccc;
+}
+
+/* Buton Hover Etkisi */
+button {
+  background-color: #5c6bc0; /* Mavi mor buton */
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3949ab; /* Buton üzerine gelince renk değişir */
+}
+
+/* Çıktı Alanı */
+pre {
+  background: #e3f2fd; /* Açık mavi arka plan */
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Inputlar */
+input {
+  border: 1px solid #5c6bc0; /* Mavi mor kenarlık */
+}
